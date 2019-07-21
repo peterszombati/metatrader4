@@ -16,9 +16,9 @@ export class MetaTrader4Connection extends Listener {
 	private requestId = 1;
 	private requestQueueValue = 5;
 	private requestTimeoutValue = 15000;
-	private apiKey: string = null;
-	private reqUrl: string = null;
-	private pullUrl: string = null;
+	private apiKey: string | null = null;
+	private reqUrl: string | null = null;
+	private pullUrl: string | null = null;
 	private requests: { reqId: number, reject: any, resolve: any, timeout: any }[] = [];
 
 	constructor({apiKey = "CHANGEME", reqUrl, pullUrl}: {apiKey: string, reqUrl: string, pullUrl: string}) {

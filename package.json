@@ -9,8 +9,7 @@
   },
   "dependencies": {
     "@types/node": "^12.6.2",
-    "@types/zeromq": "^4.6.2",
-    "mt4-zmq-bridge": "^1.1.0"
+    "@types/zeromq": "^4.6.2"
   },
   "repository": {
     "type": "git",

@@ -1,8 +1,9 @@
 {
   "name": "metatrader4",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "This project is make possible to trading with NodeJS on MetaTrader4 Account",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,7 +12,23 @@
     "@types/zeromq": "^4.6.2",
     "mt4-zmq-bridge": "^1.1.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peterszombati/metatrader4.git"
+  },
   "devDependencies": {},
-  "author": "",
-  "license": "ISC"
+  "prepare": "npm run build",
+  "author": "Peter Szombati",
+  "keywords": [
+    "metatrader4",
+    "trading",
+    "forex",
+    "trading-api",
+    "nodejs"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peterszombati/metatrader4/issues"
+  },
+  "homepage": "https://github.com/peterszombati/metatrader4#readme"
 }

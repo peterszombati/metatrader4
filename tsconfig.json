@@ -7,7 +7,9 @@
 		"sourceMap": true,
 		"target": "esnext",
 		"lib": ["es2017", "dom", "esnext"],
-		"outDir": "build"
+		"outDir": "build",
+		"declaration": true,
+		"strictNullChecks": true
 	},
 	"include": [
 		"src/**/*"

@@ -25,7 +25,7 @@
     "trading-api",
     "nodejs"
   ],
-  "license": "ISC",
+  "license": "BSD 4-Clause License",
   "bugs": {
     "url": "https://github.com/peterszombati/metatrader4/issues"
   },

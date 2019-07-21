@@ -41,3 +41,6 @@ mt4.onConnect(() => {
 
 mt4.connect();
 ```
+### Old project has deficiency
+
+This project has deficiency: https://github.com/bonnevoyager/node-mt4-zmq-bridge so I developed it and published this new repository.

@@ -19,7 +19,7 @@
 8. Move to: `<MetaTrader Data>\MQL4\Experts\MetaTrader4Bridge.mq4`
 9. Compile `MetaTrader4Bridge.mq4` expert
 
-### Usage
+### Example usage
 ```ts
 import MetaTrader4 from "metatrader4";
 
@@ -41,6 +41,6 @@ mt4.onConnect(() => {
 
 mt4.connect();
 ```
-### Old project has deficiency
+### node-mt4-zmq-bridge project has deficiency
 
 This project has deficiency: https://github.com/bonnevoyager/node-mt4-zmq-bridge so I developed it and published this new repository.

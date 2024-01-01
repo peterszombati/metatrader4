@@ -9,13 +9,12 @@
   },
   "dependencies": {
     "@types/node": "^12.6.2",
-    "@types/zeromq": "^4.6.2"
+    "zeromq": "6.0.0-beta.19"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/peterszombati/metatrader4.git"
   },
-  "devDependencies": {},
   "prepare": "npm run build",
   "author": "Peter Szombati",
   "keywords": [

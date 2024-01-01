@@ -1,6 +1,6 @@
 {
   "name": "metatrader4",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "This project is make possible to trading with NodeJS on MetaTrader4 Account",
   "main": "build/index.js",
   "types": "build/index.d.ts",

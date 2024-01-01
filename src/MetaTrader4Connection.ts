@@ -38,8 +38,8 @@ export class MetaTrader4Connection extends Listener {
 
 		this.checkConnection(this.reqSocket, reqUrl);
 		this.checkConnection(this.pullSocket, pullUrl);
-		this.reqSocket.connect(reqUrl);
-		this.pullSocket.connect(pullUrl);
+		this.reqSocket.monitor().connect(reqUrl);
+		this.pullSocket.monitor().connect(pullUrl);
 		this.reqSocket.on('message', (msg: any) => {
 			const message = this.parseMessage(msg);
 			this.callListener("onReqMessage", [message]);
